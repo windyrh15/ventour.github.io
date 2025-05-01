@@ -163,16 +163,15 @@ button {
 /* Banner ----------------------------- */
 /* Banner styling */
 .banner {
+  margin-top: 120px; /* Memberi jarak dari header */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background-color: #303030; /* Warna latar belakang */
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 80px;
   position: relative;
-  overflow: hidden;
 }
 
 .logo-banner {
@@ -707,6 +706,21 @@ button {
   }
 
   /* Banner queries ---------------------------------------------- */
+
+  .banner {
+    margin-top: 0; /* Memberi jarak dari header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #303030; /* Warna latar belakang */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
   .banner-content {
     max-width: 1200px;
   }
